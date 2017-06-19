@@ -1,0 +1,100 @@
+body { font-family: Helvetica, sans-serif;
+       font-size: 22px;
+       color: seashell;
+       background-color: black;
+       opacity: 0.9;
+       text-align: center; }
+
+/* HEADER SECTION */
+header { align-items: center;
+         background-color: black;
+         border-bottom: 1px solid seashell;
+         display: flex;
+         height: 69px;
+         justify-content: space-between;
+         margin-top: -69px;
+         min-width: 577px;
+         position: fixed;
+         width: 100%;
+         z-index: 1;}
+
+.logo img { height: 50px;
+            padding-left: 10px; }
+
+nav { text-align: right;
+      margin-right: 10px;}
+
+
+nav span { display: inline-block;
+           padding: 20px 10px; }
+
+nav a { color: seashell; }
+
+/* MAIN SECTION */
+.main_top { background-image: url("../images/img-mission-background.jpg");
+            display: flex;
+            align-items: center;
+            height: 700px;
+            width: 1200px;
+            margin: 69px auto 0; }
+
+.our_mission { background-color: black;
+               height: 105px;
+               width: 100%; }
+
+.our_mission h2, h4 { margin: 0;
+                  padding: 10px; }
+
+.main_center { height: 700px;
+               margin: auto;
+               padding-top: 70px;
+               width: 1000px; }
+
+.main_center h2, h4 { margin: 0;
+                  padding: 10px;}
+
+.main_center h4 { padding-bottom: 20px; }
+
+.main_center img { height: 200px;
+                   width: 300px;
+                   margin: 10px; }
+
+.center_images_1 { display: flex;
+                   justify-content: center;
+                   flex-wrap: wrap; }
+
+.center_images_1 p { font-weight: bold;
+                     margin-top: 0;
+                     padding: 5px; }
+
+.main_bottom { background-image: url("../images/img-locations-background.jpg");
+               height: 500px;
+               width: 1200px;
+               padding-top: 50px;
+               margin: auto;
+               }
+
+.main_bottom h2 { margin-bottom: 10px; }
+
+.location { display: flex;
+            justify-content: center;
+            padding-top: 0px;
+            }
+
+.location_two { display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 300px;
+                width: 300px;
+                background-color: black;
+                margin: 0 20px 30px ;
+                opacity: 1;
+                }
+
+.contact { height: 200px; }
+
+.contact h2 { margin: 0;
+              padding: 10px; }
+
+.copyright h5 { text-align: left;
+                padding-left: 20px; }
